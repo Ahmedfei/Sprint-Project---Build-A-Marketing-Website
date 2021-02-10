@@ -5,26 +5,40 @@
   <meta charset="utf-8">
 
   <title>Trip To Safari</title>
-
+  
   <link href="css/index.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script type="text/javascript" src="js/index.js"></script>
 
 </head>
-
+</header>
 <body>
 
  <!-- navigation Goes Here -->
+<header>
+ <nav>
+  <li><img src="./img/logo.png"></li>
+  <ul class="nav nav-tabs>
+    
+    "home>Home</li>
+    <li><a href="About us">About us</a></li>
+    <li><a href="trips">plan a trip</a></li>
+    <li><a href="Attractions">Attractions</a></li>
+    <li><a href="contact">contact us</a></li>
+</ul>
+</header>
 
   <div class="container home">
 
     <header class="intro">
        <!-- Hero Images Goes Here -->
+       <img class="hero"  src="./img/hero.jpg" >
       
-    </header>
+    
     
     <section class="attractions">
         <div class="images-title">
-            <h2>Best Attractions</h2>
+            <h2 id="attraction">Best Attractions</h2>
         </div>
         <div class="attraction-images">
             <div class="images">
@@ -44,7 +58,7 @@
     
     <section class="visit-africa">
       <div class="visit-text">
-        <h3>Let's Go For A Walk</h3>
+        <h3 id="africa">WHY YOU SHOULD VISIT AFRICA</h3>
 
         <p>Africa has the richest culture and best natural resources in the world. You will witness something you have never seen before. Your trip will be memorable because of the amazing attractions. Our team will take to places like Mount Killimanjaro, Kruger National Park, and more.</p>
       
@@ -53,10 +67,11 @@
         </div>
       </div>
       
-      <div class="visit-form">
-          <form>
-              <input type="text" placeholder="Full Name">
-              <input type="text" placeholder="Email">
+      <div class="form-group">
+        <H3>SIGN UP TO GET MORE TRAVEL NEWS</H3>
+          <form class="form-group">
+              <input type="text" placeholder="Full Name"><br>
+              <input type="text" placeholder="Email"><br>
               <input type="submit" value="Sign Up">
           </form>
       </div>
